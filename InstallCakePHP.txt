@@ -1,0 +1,23 @@
+1.Instalação do Composer
+
+2.Assinalar para instalar no modo Desenvolvedor
+
+3. Jogar na pasta htdocs o arquivo "composer.phar" instalado especificamente no diretório para desenvolvedores.
+
+4. Adicionar no arquivo php.ini o seguinte trecho:
+extension=php_intl.dll
+
+5. Executar:
+ php composer.phar create-project --prefer-dist cakephp/app servicoFicticio 
+
+6. Copiar arquivos do composer e jogar para dentro da raiz do seu projeto.
+
+7. Executar php composer.phar install
+
+8. Irá dar erro:
+Could not load configuration file: C:\xampp\htdocs\cake\config\app.php
+Vá até o arquivo C:\xampp\htdocs\cake\config\app.default.php e renomeie para app.php
+
+9. Bem vindo ao Cake :)
+
+10. Criar os controladores para Usuario, Modelos(entitades e tabelas) , configurar o que vai ser visualizado
